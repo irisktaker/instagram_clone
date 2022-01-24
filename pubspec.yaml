@@ -39,6 +39,8 @@ dependencies:
   firebase_auth: ^3.3.5
   firebase_storage: ^10.2.5
   flutter_svg: ^1.0.3
+  # allow user to pick image from image gallery or camera
+  image_picker: ^0.8.4+4
 
 dev_dependencies:
   flutter_test:
