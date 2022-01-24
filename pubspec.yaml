@@ -41,6 +41,16 @@ dependencies:
   flutter_svg: ^1.0.3
   # allow user to pick image from image gallery or camera
   image_picker: ^0.8.4+4
+  provider: ^6.0.2
+
+  # https://pub.dev/packages/firebase_core/install
+  # https://pub.dev/packages/cloud_firestore/install
+  # https://pub.dev/packages/firebase_auth/install
+  # https://pub.dev/packages/firebase_storage/install
+  # https://pub.dev/packages/flutter_svg/install
+  # https://pub.dev/packages/image_picker
+  # https://pub.dev/packages/provider/install
+
 
 dev_dependencies:
   flutter_test:
