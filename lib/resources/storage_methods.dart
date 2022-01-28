@@ -1,9 +1,6 @@
 import 'dart:typed_data';
-
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_storage/firebase_storage.dart';
-import 'package:flutter/material.dart';
 
 class StorageMethods {
   final FirebaseStorage _storage = FirebaseStorage.instance;
@@ -24,7 +21,7 @@ class StorageMethods {
 
     return downloadUrl;
 
-    // we did't add try catch coz it will take it from 
+    // we did't add try catch coz it will take it from
     // auth_methods.dart and we add try catch there
   }
 }
